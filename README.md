@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in SQL queries involving NULL values. The `bug.sql` file contains a query that unintentionally excludes employees with NULL salaries. The `bugSolution.sql` file provides a corrected version using the IS NULL operator for proper NULL handling.
